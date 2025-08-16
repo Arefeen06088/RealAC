@@ -1,5 +1,5 @@
 # RealAC: A Domain-Agnostic Framework for Realistic and Actionable Counterfactual Explanations
-📜 # Overview
+# 📜 Overview
 
 RealAC is a domain-agnostic framework for generating realistic and actionable counterfactual explanations (CFs) for machine learning models.
 Unlike existing methods, RealAC:
@@ -12,7 +12,7 @@ Balances realism, actionability, and prediction validity, achieving state-of-the
 
 Counterfactual explanations describe minimal changes to input features that flip a model’s prediction. RealAC ensures these changes are plausible and implementable in practice.
 
-🚀 Key Features
+# 🚀 Key Features
 
 Dependency Preservation:
 Maintains statistical and structural integrity by minimizing divergence in mutual information between feature pairs in factual and counterfactual data.
@@ -31,7 +31,7 @@ Outperforms state-of-the-art and LLM-based CF generators across metrics such as:
 3. Dependency Preservation Score (DPS)
 4. IM1 realism metric
 
-📜 Citation
+# 📜 Citation
 
 If you use RealAC in your research, please cite:
 
