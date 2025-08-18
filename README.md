@@ -1,5 +1,5 @@
 # RealAC: A Domain-Agnostic Framework for Realistic and Actionable Counterfactual Explanations
-# 📜 Overview
+# 📌 Overview
 
 RealAC is a domain-agnostic framework for generating realistic and actionable counterfactual explanations (CFs) for machine learning models.
 Unlike existing methods, RealAC:
@@ -30,6 +30,24 @@ Outperforms state-of-the-art and LLM-based CF generators across metrics such as:
 2. Causal Edge Score (CES)
 3. Dependency Preservation Score (DPS)
 4. IM1 realism metric
+
+# 📊 Data
+Tested on three synthetic datasets (with sinusoidal, quadratic, exponential, and linear dependencies) and two real datasets.
+
+1. Synthetic 1
+2. Synthetic 2
+3. Sangiovese
+4. Diabetes
+5. Adult Income
+
+Compared against DiCE, C-CHVAE, NICE, CFNOW, CEILS, MCCE, SenseCF (LLM-based).
+
+# 🔮 Key Findings:
+
+1. RealAC consistently preserves complex non-linear dependencies better than baselines.
+2. Achieves higher causal plausibility and structural integrity while maintaining competitive validity and proximity.
+3. On datasets with nonlinear relationships, RealAC’s advantage is particularly strong.
+4. Computational efficiency is comparable to CHVAE and faster than other methods.
 
 # 📜 Citation
 
