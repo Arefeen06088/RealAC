@@ -34,11 +34,11 @@ Outperforms state-of-the-art and LLM-based CF generators across metrics such as:
 # 📊 Data
 Tested on three synthetic datasets (with sinusoidal, quadratic, exponential, and linear dependencies) and two real datasets.
 
-1. Synthetic 1
-2. Synthetic 2
-3. Sangiovese
-4. Diabetes
-5. Adult Income
+1. [Synthetic 1]([https://pages.github.com/](https://arxiv.org/pdf/2202.07356))
+2. [Synthetic 2]([https://pages.github.com/](https://arxiv.org/pdf/2202.07356))
+3. [Sangiovese](https://arxiv.org/pdf/1912.03277)
+4. [Diabetes](https://www.kaggle.com/datasets/mathchi/diabetes-data-set)
+5. [Adult Income](https://www.kaggle.com/datasets/wenruliu/adult-income-dataset)
 
 Compared against DiCE, C-CHVAE, NICE, CFNOW, CEILS, MCCE, SenseCF (LLM-based).
 
